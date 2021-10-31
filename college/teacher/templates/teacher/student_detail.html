@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+
+<br>
+<h3> Student details: </h3> <br>
+<ol>
+	<li> Name : {{ obj.name }} </li>
+	<li> Subjects : {{obj.subject.sub_1}}, {{obj.subject.sub_2}}, {{obj.subject.sub_3}}, {{obj.subject.sub_4}} </li>
+
+	<li> Marks in respective subjects : {{obj.mark.marks_1}}, {{obj.mark.marks_2}}, {{obj.mark.marks_3}},
+		{{obj.mark.marks_4}} </li>
+
+	<li> Semester : {{obj.course.semester}} </li>
+
+</ol>
+
+{% endblock %}

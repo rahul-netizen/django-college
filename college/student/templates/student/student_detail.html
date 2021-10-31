@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<h3> Student details: </h3>
+<ol>
+	<li> {{ obj }} </li>
+	<li> {{ obj.subject.sub_1 }} </li>
+	<li> {{ obj.dob }}</li>
+</ol>
+
+{% endblock %}

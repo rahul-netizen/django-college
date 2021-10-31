@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<br>
+<h3> List of students currently enrolled: </h3> <br>
+
+<ol>
+
+	{% for instance in obj %}
+
+	<li> {{instance}} </li>
+	{% endfor %}
+</ol>
+
+{% endblock %}

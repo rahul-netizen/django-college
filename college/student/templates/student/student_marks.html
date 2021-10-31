@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+
+<br>
+<h3>Student Marks Details for {{obj.name}}:</h3><br>
+
+<table width="100%" height="50%" border="3">
+	<tr>
+		<th>Roll Number</th>
+		<th>Name</th>
+		<th>Semester</th>
+		<th>{{obj.subject.sub_1}}</th>
+		<th>{{obj.subject.sub_2}}</th>
+		<th>{{obj.subject.sub_3}}</th>
+		<th>{{obj.subject.sub_4}}</th>
+
+	</tr>
+
+	<tr align="center">
+		<td>{{obj.roll}}</td>
+		<!--rollnum and sname from student models -->
+		<td>{{obj.name}}</td>
+		<td>{{sem}}</td>
+		<td>{{obj.mark.marks_1}}</td>
+		<td>{{obj.mark.marks_2}}</td>
+		<td>{{obj.mark.marks_3}}</td>
+		<td>{{obj.mark.marks_4}}</td>
+	</tr>
+	</h2>
+</table>
+<br>
+<h3>Grand Total For this Semester : {{totalmarks}}/{{grandtotal}}</h3><br>
+
+
+
+
+{% endblock %}

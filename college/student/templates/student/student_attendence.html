@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+
+<br>
+	<h3>Student Attendence Details for {{obj.name}}:</h3><br>
+
+<table width="100%" height="50%" border="3">
+	<tr>
+		<th>Roll Number</th>
+		<th>Name</th>
+		<th>Semester</th>
+		<th>Attendence count for this month ({{obj.attendence.month}})</th>
+
+	</tr>
+
+	<tr align="center">
+		<td>{{obj.roll}}</td>
+		<td>{{obj.name}}</td>
+		<td>{{sem}}</td>
+		<td>{{ obj.attendence.attend_count}}</td>
+
+	</tr>
+
+</table>
+
+{% endblock %}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Student</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<style>
+		* {
+			margin: 0px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 18px;
+		}
+
+		.cont {
+			background-color: rgba(0, 0, 0, 0.856);
+			overflow: hidden;
+		}
+
+		.body {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 100vh;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+			list-style: none;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight: 500;
+			color: #edf0f1;
+		}
+
+		.button {
+			background-color: rgb(0, 174, 255);
+			border: none;
+			border-radius: 10px;
+			margin-right: 30px;
+			margin-left: auto;
+		}
+
+		.login {
+			padding: 5px;
+		}
+
+		.inner {
+			padding-right: 40px;
+		}
+
+		.home {
+			padding-left: 30px;
+		}
+
+		.inner:hover {
+			color: rgb(0, 174, 255);
+		}
+	</style>
+</head>
+
+<body>
+	<nav class=cont>
+		<ul>
+			<li><a href='/' class="inner home">Home</a></li>
+			<li><a href='/student/login' class="inner">Go to Student Login</a></li>
+			<li><a href='/teacher/login' class="inner">Go to Teacher Login</a></li>
+			<li><a href='/teacher' class="inner"> Teacher Home </a></li>
+			<li><a href='/student' class="inner"> Student Home </a></li>
+
+			<button class="button"><a href='login' class="login"> Logout </a></button>
+		</ul>
+	</nav>
+</body>
+
+</html>

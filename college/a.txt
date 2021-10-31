@@ -1,0 +1,135 @@
+Folder PATH listing for volume OS
+Volume serial number is 8827-C917
+C:.
+³   a.txt
+³   db.sqlite3
+³   manage.py
+³   
+ÃÄÄÄcollege
+³   ³   asgi.py
+³   ³   settings.py
+³   ³   urls.py
+³   ³   wsgi.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           settings.cpython-38.pyc
+³           urls.cpython-38.pyc
+³           wsgi.cpython-38.pyc
+³           __init__.cpython-38.pyc
+³           
+ÃÄÄÄstudent
+³   ³   admin.py
+³   ³   apps.py
+³   ³   forms.py
+³   ³   models.py
+³   ³   tests.py
+³   ³   urls.py
+³   ³   views.py
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄmigrations
+³   ³   ³   0001_initial.py
+³   ³   ³   0002_auto_20210722_2307.py
+³   ³   ³   0003_auto_20210722_2308.py
+³   ³   ³   0004_auto_20210722_2310.py
+³   ³   ³   0005_attendence_student.py
+³   ³   ³   0006_auto_20210722_2321.py
+³   ³   ³   0007_auto_20210722_2323.py
+³   ³   ³   0008_attendence_semester.py
+³   ³   ³   0009_remove_attendence_semester.py
+³   ³   ³   0010_auto_20210722_2334.py
+³   ³   ³   0011_studentinfo_attendence.py
+³   ³   ³   0012_remove_student_attendence.py
+³   ³   ³   0013_student_attendence.py
+³   ³   ³   0014_auto_20210724_2252.py
+³   ³   ³   0015_auto_20210724_2341.py
+³   ³   ³   0016_auto_20210724_2344.py
+³   ³   ³   0017_auto_20210725_2016.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           0001_initial.cpython-38.pyc
+³   ³           0002_auto_20210722_2307.cpython-38.pyc
+³   ³           0003_auto_20210722_2308.cpython-38.pyc
+³   ³           0004_auto_20210722_2310.cpython-38.pyc
+³   ³           0005_attendence_student.cpython-38.pyc
+³   ³           0006_auto_20210722_2321.cpython-38.pyc
+³   ³           0007_auto_20210722_2323.cpython-38.pyc
+³   ³           0008_attendence_semester.cpython-38.pyc
+³   ³           0009_remove_attendence_semester.cpython-38.pyc
+³   ³           0010_auto_20210722_2334.cpython-38.pyc
+³   ³           0011_studentinfo_attendence.cpython-38.pyc
+³   ³           0012_remove_student_attendence.cpython-38.pyc
+³   ³           0013_student_attendence.cpython-38.pyc
+³   ³           0014_auto_20210724_2252.cpython-38.pyc
+³   ³           0015_auto_20210724_2341.cpython-38.pyc
+³   ³           0016_auto_20210724_2344.cpython-38.pyc
+³   ³           0017_auto_20210725_2016.cpython-38.pyc
+³   ³           __init__.cpython-38.pyc
+³   ³           
+³   ÃÄÄÄtemplates
+³   ³   ÀÄÄÄstudent
+³   ³           student_attendence.html
+³   ³           student_detail.html
+³   ³           student_login.html
+³   ³           student_marks.html
+³   ³           student_navbar.html
+³   ³           
+³   ÀÄÄÄ__pycache__
+³           admin.cpython-38.pyc
+³           forms.cpython-38.pyc
+³           models.cpython-38.pyc
+³           urls.cpython-38.pyc
+³           views.cpython-38.pyc
+³           __init__.cpython-38.pyc
+³           
+ÃÄÄÄteacher
+³   ³   admin.py
+³   ³   apps.py
+³   ³   forms.py
+³   ³   models.py
+³   ³   tests.py
+³   ³   urls.py
+³   ³   views.py
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄmigrations
+³   ³   ³   0001_initial.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           0001_initial.cpython-38.pyc
+³   ³           0002_auto_20210720_2214.cpython-38.pyc
+³   ³           0003_auto_20210721_1904.cpython-38.pyc
+³   ³           __init__.cpython-38.pyc
+³   ³           
+³   ÃÄÄÄtemplates
+³   ³   ÀÄÄÄteacher
+³   ³           student_attendence_update.html
+³   ³           student_create.html
+³   ³           student_detail.html
+³   ³           student_detail_update.html
+³   ³           student_list.html
+³   ³           student_marks_update.html
+³   ³           student_search.html
+³   ³           student_subject_update.html
+³   ³           student_update.html
+³   ³           student_update_options.html
+³   ³           teacher_login.html
+³   ³           teacher_navbar.html
+³   ³           
+³   ÀÄÄÄ__pycache__
+³           admin.cpython-38.pyc
+³           forms.cpython-38.pyc
+³           models.cpython-38.pyc
+³           urls.cpython-38.pyc
+³           views.cpython-38.pyc
+³           __init__.cpython-38.pyc
+³           
+ÀÄÄÄtemplates
+        base.html
+        forms.html
+        index.html
+        navbar.html
+        

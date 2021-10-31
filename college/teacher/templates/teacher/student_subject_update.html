@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<a href='../'> Resubmitt updated detail to update again </a>
+
+
+<form action='.' method='POST'> {% csrf_token %}
+
+	{{ form.as_p }}
+	<br>{{ success_msg }}<br><br>
+
+	<input type='submit' value='Update Subjects' />
+
+</form>
+
+{% endblock %}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <title>College Management System</title>
+  <style>
+    * {
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+    }
+
+    .cont {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: rgba(0, 0, 0, 0.856);
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #edf0f1;
+    }
+
+    .button {
+      background-color: rgb(0, 174, 255);
+      border: none;
+      border-radius: 10px;
+      margin-right: 30px;
+
+    }
+
+    .login {
+      padding: 5px;
+    }
+
+    .inner {
+      padding-right: 40px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .home {
+      padding-left: 30px;
+    }
+
+    .inner:hover {
+      color: rgb(0, 174, 255);
+    }
+
+    body {
+      background-color: rgb(48, 48, 48);
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 7vh;
+      font-family: Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="body">
+    <nav class=cont>
+      <a href='/' class="inner home">Home</a>
+
+      <button class="button"><a href='login' class="login"> Logout </a></button>
+    </nav>
+  </div>
+  <h1> Student Update Options </h1>
+  <div style="display: flex; flex-direction: row; justify-content: space-around; margin-top:50px">
+
+
+    <div class="card" style="width: 18rem; margin: 10px">
+      <img src="https://image.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg">
+      <div class="card-body">
+        <div style="display: flex; flex-direction: column;">
+          <h5 class="card-title">Update Student Details</h5>
+          <p class="card-text">Update student's personal details like dob,name etc. </p>
+          <a href="../studentdetailupdate" class="btn btn-primary">Student Detail Update</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="card" style="width: 18rem; margin: 10px">
+      <img src="https://image.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg"
+        class="card-img-top">
+      <div class="card-body">
+        <div style="display: flex; flex-direction: column;">
+          <h5 class="card-title">Update Student Attendence</h5>
+        </div>
+        <p class="card-text">Update student's attendence details. </p>
+        <a href="../studentattendenceupdate" class="btn btn-primary">Student Attendence Update</a>
+      </div>
+    </div>
+
+
+
+
+    <div class="card" style="width: 18rem; margin: 10px">
+      <img src="https://image.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg"
+        class="card-img-top">
+      <div class="card-body">
+        <div style="display: flex; flex-direction: column;">
+          <h5 class="card-title">Student Subject Update</h5>
+          <p class="card-text">Update student's subjects. </p>
+          <a href="../studentsubjectupdate" class="btn btn-primary">Student Subjects Update</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem; margin: 10px">
+      <img src="https://image.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg"
+        class="card-img-top">
+      <div class="card-body">
+        <div style="display: flex; flex-direction: column;">
+          <h5 class="card-title">Student Marks Update</h5>
+        </div>
+        <p class="card-text">Update student's marks. </p>
+        <a href="../studentmarkupdate/" class="btn btn-primary">Student Marks Update</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

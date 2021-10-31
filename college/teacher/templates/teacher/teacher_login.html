@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teacher</title>
+
+	<style>
+		.cont1 {
+			margin: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#upper_one {
+			margin-top: 10px;
+
+		}
+
+		h1 {
+			font-size: 27px;
+			margin-top: 20px;
+		}
+
+		input {
+			margin: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	{% extends 'base.html' %}
+
+	{% block content %}
+	<div class="cont1">
+		<h1>Teacher Login</h1>
+		<form action='.' method='POST'> {% csrf_token %}
+
+			<p id="upper_one">{{ form.as_p }}</p>
+			<input type='submit' value='Login' />
+			{{ error_msg }}
+
+		</form>
+	</div>
+	{% endblock %}
+</body>
+
+</html>
